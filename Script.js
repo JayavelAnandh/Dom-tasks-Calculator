@@ -194,52 +194,52 @@ document.addEventListener("keyup",(eve)=>{
     if(eve.key==='1'){
         formcal.display.value += '1'
     }
-    if(eve.key==='2'){
+    else if(eve.key==='2'){
         formcal.display.value += '2'
     }
-    if(eve.key==='3'){
+    else if(eve.key==='3'){
         formcal.display.value += '3'
     }
-    if(eve.key==='4'){
+    else if(eve.key==='4'){
         formcal.display.value += '4'
     }
-    if(eve.key==='5'){
+    else if(eve.key==='5'){
         formcal.display.value += '5'
     }
-    if(eve.key==='6'){
+    else if(eve.key==='6'){
         formcal.display.value += '6'
     }
-    if(eve.key==='7'){
+    else if(eve.key==='7'){
         formcal.display.value += '7'
     }
-    if(eve.key==='8'){
+    else if(eve.key==='8'){
         formcal.display.value += '8'
     }
-    if(eve.key==='9'){
+    else if(eve.key==='9'){
         formcal.display.value += '9'
     }
-    if(eve.key==='+'){
+    else if(eve.key==='+'){
         formcal.display.value += '+'
     }
-    if(eve.key==='-'){
+    else if(eve.key==='-'){
         formcal.display.value += '-'
     }
-    if(eve.key==='*'){
+    else if(eve.key==='*'){
         formcal.display.value += '*'
     }
-    if(eve.key==='/'){
+    else if(eve.key==='/'){
         formcal.display.value += '/'
     }
-    if(eve.key==='0'){
+    else if(eve.key==='0'){
         formcal.display.value += '0'
     }
-    if(eve.key==='%'){
+    else if(eve.key==='%'){
         formcal.display.value += '%'
     }
-    if(eve.key==='=' ||eve.key==='Enter'){
+    else if(eve.key==='=' ||eve.key==='Enter'){
         formcal.display.value = eval(formcal.display.value);
     }
-    if(eve.key==='Delete'||eve.key==='Backspace'||eve.key==='\x00'){
+    else if(eve.key==='Delete'||eve.key==='Backspace'||eve.key==='\x00'){
      formcal.display.value = ''
     }
     else{
